@@ -1,0 +1,70 @@
+body {
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 90%;
+	background-color: rgba(40,40,40,1);
+	color: white;
+}
+
+.container {
+	margin: 30px 250px 70px 250px;
+	background: rgba(0,0,0,0.6); /* 0.6 = opacità 60% */
+	border-radius: 10px;
+	padding: 50px 0 50px 0;
+}
+
+.logo-row {
+	margin: 0 auto;
+	width: 150px;
+}
+
+.logo {
+	width: 100%;
+	text-align: center;
+} /* da centrare */
+
+h1 {
+	color: lime;
+	text-align: center;
+}
+
+nav {
+	background-color: lime;
+	text-align: center;
+	padding: 10px;
+	margin: 0 50px;
+}
+
+.monopattino {
+	margin: 30px 0 0 50px;
+}
+
+.user {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.info {
+	display: block;
+}
+
+.battery {
+	display: block;
+	border-radius: 5px;
+}
+
+.med {
+	width: 300px;
+	height: 20px;
+}
+
+.high {
+	width: 450px;
+	height: 20px;
+}
+
+.low {
+	width: 130px;
+	height: 20px;
+}
